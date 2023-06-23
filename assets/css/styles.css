@@ -1,0 +1,341 @@
+.htmlMain {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
+}
+
+.bodyMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  background: linear-gradient(to top right, #17233E, #242f4b);
+  min-height: 100vh;
+  word-break: break-word;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: roboto;
+  word-break: break-word;
+  color: #ffffff;
+  position: relative;
+}
+
+.divNavGrouped {
+}
+
+.divMainContent {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 100%;
+  justify-content: start;
+  align-items: center;
+  overflow: hidden;
+  padding: 50px 0 50px 0;
+  position: relative;
+}
+
+.divFooter {
+}
+
+.divHero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  align-items: center;
+}
+
+.divCustomContainer {
+  width: 100%;
+  max-width: 1600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /*align-items: center;*/
+  padding: 0 10px 0 10px;
+  position: relative;
+}
+
+.divHeroBox {
+  width: 100%;
+  border-radius: 24px;
+  /*padding: 10px;*/
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  align-items: center;
+  border: solid 1px rgba(255,255,255,0.15);
+  background: linear-gradient(to top right, #17233E, #2f3d62);
+  box-shadow: 0 0 16px 0 rgb(0,0,0,0.1);
+  overflow: hidden;
+}
+
+@media (max-width: 1400px) {
+  .divHeroBox.divHeroBoxMobileStart {
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+}
+
+.divHeroBoxCover {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+}
+
+@media (max-width: 1400px) {
+  .divHeroBoxCover {
+    grid-template-columns: 1fr;
+  }
+}
+
+.divHeroBox.divHeroBoxChar {
+  background: unset;
+  border: unset;
+  box-shadow: unset;
+  padding: 0 20px 0 20px;
+}
+
+@media (max-width: 1400px) {
+  .divHeroBox.divHeroBoxChar {
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+}
+
+.divHeroBoxTop {
+  width: 100%;
+  border-bottom: solid 1px rgba(255,255,255,0.15);
+  padding: 20px 0 20px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.divHeroBoxTopHead {
+  margin: 0;
+}
+
+.divHeroBoxMid {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+
+@media (max-width: 1400px) {
+  .divHeroBox.divHeroBoxMobileEnd {
+    grid-row-start: 3;
+    grid-row-end: 3;
+  }
+}
+
+.divHeroBoxTopHeadPara {
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.divHeroBoxTop.divHeroBoxTopMiddle {
+  border: unset;
+  padding: 10px 0 10px 0;
+}
+
+.divHeroBoxMidChar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.divHeroBoxMidCharImg {
+  max-width: 100%;
+}
+
+.zapBtnHandle {
+  transition: ease 0.3s;
+  width: 100%;
+  padding: 15px;
+  border-radius: 12px;
+  outline: unset;
+  border: unset;
+  box-shadow: 0 0 6px 0 rgb(0,0,0,0.15);
+  background: rgba(255,255,255,0.13);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 25px 0 0 0;
+}
+
+.zapBtnHandle:hover {
+  transition: ease 0.3s;
+  background: rgba(255,255,255,0.25);
+}
+
+.divVideo {
+  width: 100%;
+  padding-top: calc(100% / (16 / 9));
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0 0 12px 0 rgb(0,0,0,0.1);
+  justify-self: center;
+  /*border: solid 1px rgba(255,255,255,0.15);*/
+  /*outline: solid 10px #23335e;*/
+}
+
+.divVideoVideo {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.divVideoCover {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  /*margin: 50px 0 0 0;*/
+}
+
+@media (max-width: 1400px) {
+  .divVideoCover {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+  }
+}
+
+.btnNostr {
+  transition: ease 0.3s;
+  width: 100%;
+  /*max-width: 500px;*/
+  padding: 15px;
+  border-radius: 12px;
+  outline: unset;
+  border: solid 1px rgba(255,255,255,0.05);
+  box-shadow: 0 0 6px 0 rgb(0,0,0,0.0);
+  background: rgba(255,255,255,0.0);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.btnNostr:hover {
+  transition: ease 0.3s;
+  background: rgba(255,255,255,0.1);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  box-shadow: 0 0 6px 0 rgba(0,0,0,0.25);
+  border: solid 1px rgba(255,255,255,0.1);
+}
+
+.btnNostrdiv {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1400px) {
+  .btnNostrdiv {
+    grid-column-start: 1;
+    grid-column-end: unset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.divHeroBoxMidParaSpanRelay {
+  width: 100%;
+  max-width: 200px;
+  padding: 10px 0 10px 0;
+  border: solid 1px rgba(255,255,255,0.16);
+  border-radius: 12px;
+  margin: 15px 0 0 0;
+}
+
+.divHeroBoxMidPara {
+  width: 100%;
+  margin: unset;
+}
+
+.btnRelayCopy {
+  transition: ease 0.3s;
+  width: 100%;
+  /*max-width: 250px;*/
+  padding: 10px 25px 10px 0;
+  border: solid 1px rgba(255,255,255,0.1);
+  border-radius: 12px;
+  margin: 25px 0 0 0;
+  color: rgba(255,255,255,0.5);
+  background: rgba(255,255,255,0);
+  position: relative;
+}
+
+.btnRelayCopy:hover {
+  transition: ease 0.3s;
+  border: solid 1px rgba(255,255,255,0.25);
+  color: rgb(255,255,255);
+  background: rgba(255,255,255,0.1);
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #2c3a5e;
+  color: white;
+  border-radius: 16px 16px 0 0;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+  border-bottom-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+
+.accordion-item:last-of-type {
+  border-bottom-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+
+.divFAQH {
+  width: 100%;
+  margin: 50px 0 0 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+@media (max-width: 1400px) {
+  .divFAQH {
+    grid-template-columns: 1fr;
+  }
+}
+
+.divFAQHin {
+}
+
