@@ -163,6 +163,8 @@
 
 .divHeroBoxMidCharImg {
   max-width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 0 16px 0 rgb(0,0,0,0.1);
 }
 
 .zapBtnHandle {
