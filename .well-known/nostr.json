@@ -1,12 +1,12 @@
 {
   "names": {
-    "gadstr": "a2e63096d240738f44c49ee6f45b2b641f97bc7bb20e5d44352e25f25cbd0df2",
+    "gadstr": "b4d131e20e2b1d9c0a28ac47bc8f7940533cf380c587182021b68ae8d90ae6b6",
     "freakoverse": "3cea4806b1e1a9829d30d5cb8a78011d4271c6474eb31531ec91f28110fe3f40",
     "shroomcraftgames": "71daccc469f52faeef866b351bc3ce5d7d65ddaa765a17da8b37ad49731e8eac",
     "frostyfowl": "e3240a7b729873a9b560885bff49fdb4c3490485f2240639fd9acc957cf4e099"
   },
     "relays": {
-      "a2e63096d240738f44c49ee6f45b2b641f97bc7bb20e5d44352e25f25cbd0df2": ["wss://relay.gadstr.xyz", "wss://relay.plebstr.com"],
+      "b4d131e20e2b1d9c0a28ac47bc8f7940533cf380c587182021b68ae8d90ae6b6": ["wss://relay.gadstr.xyz", "wss://relay.plebstr.com"],
       "3cea4806b1e1a9829d30d5cb8a78011d4271c6474eb31531ec91f28110fe3f40": ["wss://relay.plebstr.com", "wss://relay.gadstr.xyz"], 
       "71daccc469f52faeef866b351bc3ce5d7d65ddaa765a17da8b37ad49731e8eac": ["wss://relay.plebstr.com", "wss://relay.gadstr.xyz"],
       "e3240a7b729873a9b560885bff49fdb4c3490485f2240639fd9acc957cf4e099": ["wss://relay.plebstr.com", "wss://relay.gadstr.xyz"]
