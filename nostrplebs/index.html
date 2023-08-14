@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html class="htmlMain" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>nostrplebs.com</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body class="bodyMain">
+    <div class="divMain">
+        <div class="divCustomContainer">
+            <div class="divNavMainWrap">
+                <div id="navMobile" class="divNavMainGroup">
+                    <div id="navlinksID" class="divNavMain">
+                        <div class="dNMLinkWrap"><a class="dNMLink" href="#">Home</a></div>
+                        <div class="dNMLinkWrap"><a class="dNMLink" href="#" onclick="dropdownNavMain()">Services</a>
+                            <div class="dNMDropDownWrap2">
+                                <div class="dNMDropDown"><a class="dNMLink" href="#">Register</a><a class="dNMLink" href="#">Manage</a><a class="dNMLink" href="#">Directory</a></div>
+                            </div>
+                        </div>
+                        <div class="dNMLinkWrap"><a class="dNMLink" href="#">Features</a></div>
+                        <div class="dNMLinkWrap"><a class="dNMLink" href="#">News</a></div>
+                        <div class="dNMLinkWrap"><a class="dNMLink" href="#">Help</a></div>
+                    </div>
+                    <div class="divNavMainBurger">
+                        <div class="dNMLinkWrap"><a class="dNMLink" href="#" onclick="burgerNavMain()"><i class="fa fa-bars"></i></a></div>
+                    </div>
+                </div>
+                <div id="navDesktop" class="divNavMainGroup">
+                    <div class="divNavMain">
+                        <div class="dNMLinkWrap"><a class="dNMLink" href="#">Home</a></div>
+                        <div class="dNMLinkWrap"><a class="dNMLink" href="#" onclick="dropdownNavMain()">Services</a>
+                            <div class="dNMDropDownWrap2">
+                                <div class="dNMDropDown"><a class="dNMLink" href="#">Register</a><a class="dNMLink" href="#">Manage</a><a class="dNMLink" href="#">Directory</a></div>
+                            </div>
+                        </div>
+                        <div class="dNMLinkWrap"><a class="dNMLink" href="#">FAQ</a></div>
+                        <div class="dNMLinkWrap"><a class="dNMLink" href="#">Features</a></div>
+                        <div class="dNMLinkWrap"><a class="dNMLink" href="#">News</a></div>
+                        <div class="dNMLinkWrap"><a class="dNMLink" href="#">Help</a></div>
+                    </div>
+                    <div class="divNavMainBurger">
+                        <div class="dNMLinkWrap"><a class="dNMLink" href="#" onclick="burgerNavMain()"><i class="fa fa-bars"></i></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="divBodyMain">
+                <div class="divTopContent">
+                    <div class="divTopContentCard divTopContentCardAlt">
+                        <div class="dTCCIn">
+                            <div class="dTCCInTop">
+                                <h1 class="dTCCInTopH">Nostr Plebs</h1>
+                                <h3 class="dTCCInTopH">Get a Nostr address</h3>
+                            </div>
+                            <div class="dTCCInBot">
+                                <h4 class="dTCCInBotH">What is Nostr addresses (NIP-05) for Nostr?<br></h4>
+                                <p class="dTCCInBotPara">It's a human readable identifier for your public key. It makes finding your profile on Nostr easier. It makes identifying your account easier. A NIP-05 ID also provides you with a shiny verified checkmark!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divTopContentCard">
+                        <p class="divPickNameParaText">Pick a name to register.</p>
+                        <div>
+                            <div class="divPickName"><input type="text" class="fieldMain" placeholder="Name">
+                                <p class="divPickNameAt">@</p><select class="fieldMain">
+                                    <option value="12" selected="">nostrplebs.com</option>
+                                    <option value="13">This is item 2</option>
+                                    <option value="14">This is item 3</option>
+                                </select>
+                            </div>
+                            <p class="divPickNameParaText">type in a name to see info...<br></p>
+                            <p class="divPickNameParaText" style="margin: 0 0 10px 0;">Enter your&nbsp; <span>Public</span>&nbsp;key.</p>
+                            <div class="divpubkey"><input type="text" class="fieldMain" placeholder="pubkey"></div>
+                            <p class="divPickNameParaText">by pressing next you confirm you have read the Nostr Plebs&nbsp;<a href="#">ToS</a>.</p>
+                        </div>
+                        <div class="divNameBtn"><button class="btn btnMain" type="button">Next</button></div>
+                        <p class="divPickNameParaText" style="margin: unset;">Already have a name?&nbsp;<a href="#">Manage it</a>.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="divFootMain">
+                <div class="footerLinks"><a class="footerLinksLink" href="#"><img class="footerLinksLinkImg" src="assets/img/nostr.6f25c0283dab3d34de36.png"></a><a class="footerLinksLink" href="#"><img class="footerLinksLinkImg" src="assets/img/nostr.6f25c0283dab3d34de36.png"></a></div>
+                <div class="footerLinks"><a class="footerLinksLink" href="#"><img class="footerLinksLinkImg" src="assets/img/kTMKxop6zc.png"></a><a class="footerLinksLink" href="#"><img class="footerLinksLinkImg" src="assets/img/kTMKxop6zc.png"></a><a class="footerLinksLink" href="#"><img class="footerLinksLinkImg" src="assets/img/kTMKxop6zc.png"></a></div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/navDropdown.js"></script>
+</body>
+
+</html>
